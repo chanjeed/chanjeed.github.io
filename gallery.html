@@ -5,13 +5,13 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 	<head>
-		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-		<link rel="manifest" href="/site.webmanifest">
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Chanya's Portfolio --Instragram-like Web application--</title>
+	<title>Chanya's Portfolio --Gallery--</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Chanya's Portfolio" />
 	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -79,7 +79,8 @@
 				<ul>
 					<li><a href="index.html">About</a></li>
 					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="gallery.html">Gallery</a></li>
+					<li class="fh5co-active"><a href="index.html">About</a></li>
+
 
 				</ul>
 			</nav>
@@ -101,53 +102,57 @@
 		<div id="fh5co-main">
 
 			<div class="fh5co-narrow-content">
-				<div class="row">
+				<h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Gallery</span></h2>
+				<div class="row animate-box" data-animate-effect="fadeInLeft">
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
 
-					<div class="col-md-12 animate-box" data-animate-effect="fadeInLeft">
-						<figure class="text-center">
-							<img src="images/work_5.jpg" alt="Free HTML5 Bootstrap" class="img-responsive">
-						</figure>
-					</div>
-
-					<div class="col-md-8 col-md-offset-2 animate-box" data-animate-effect="fadeInLeft">
-
-						<div class="col-md-9 col-md-push-3">
-							<a href="http://skillup-chanjeed.herokuapp.com/home" target="_blank"><h1>Instragram-like Web application</h1></a>
-							<p>Implement Instragram-like Web application which user can post images by login via Github account.</p>
-
-							<p>B3, Practice using PHP</p>
-						</div>
-
-						<div class="col-md-3 col-md-pull-9 fh5co-services">
-							<h3>March 2019</h3>
-							<ul>
-								<li>Personal</li>
-								<li>PHP</li>
-								<li>Laravel</li>
-								<li>HTML</li>
-								<li>CSS</li>
-							</ul>
-						</div>
+							<img src="images/gallery_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Personal/OpenCV</p>
 
 					</div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+
+							<img src="images/gallery_2.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Team/UI Design/JavaScript,D3.js/HTML/CSS/Python</p>
+
+					</div>
+					<div class="clearfix visible-sm-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+
+							<img src="images/gallery_3.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Team/Raspberry Pi/OpenCV/Python/Electronic device</p>
+
+					</div>
+					<div class="clearfix visible-md-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+
+							<img src="images/gallery_4.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Team/NLP/Python</p>
+
+					</div>
+
+					<div class="clearfix visible-md-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+
+							<img src="images/gallery_5.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Personal/PHP/Laravel/HTML/CSS</p>
+
+					</div>
+
+					<div class="clearfix visible-md-block"></div>
+					<div class="col-md-4 col-sm-6 col-xs-6 col-xxs-12 work-item">
+
+							<img src="images/gallery_6.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" >
+							<p>Team/Ideathon/Hackathon</p>
+
+					</div>
+
 				</div>
-
-				<div class="row work-pagination animate-box" data-animate-effect="fadeInLeft">
-					<div class="col-md-8 col-md-offset-2 col-sm-12 col-sm-offset-0">
-
-						<div class="col-md-4 col-sm-4 col-xs-4 text-center">
-							<a href="work_4.html"><i class="icon-long-arrow-left"></i> <span>Previous Project</span></a>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-4 text-center">
-							<a href="#"><i class="icon-th-large"></i></a>
-						</div>
-						<div class="col-md-4 col-sm-4 col-xs-4 text-center">
-							<a href="work_6.html"><span>Next Project</span> <i class="icon-long-arrow-right"></i></a>
-						</div>
-					</div>
-				</div>
-
 			</div>
+
+
+
+
 		</div>
 	</div>
 
@@ -165,6 +170,7 @@
 	<script src="js/jquery.waypoints.min.js"></script>
 	<!-- Counters -->
 	<script src="js/jquery.countTo.js"></script>
+
 
 
 	<!-- MAIN JS -->
