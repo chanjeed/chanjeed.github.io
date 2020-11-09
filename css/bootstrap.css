@@ -367,9 +367,10 @@ img {
 
 .img-responsive {
   display: block;
-  max-width: 100%;
   height: 300px;
-  width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .img-responsive-2 {
