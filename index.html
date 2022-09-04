@@ -4,53 +4,67 @@
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!-->
 <html class="no-js">
-<!--<![endif]-->
+  <!--<![endif]-->
 
-<head>
+  <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178772636-1"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-178772636-1"
+    ></script>
     <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-        gtag('config', 'UA-178772636-1');
+      gtag("config", "UA-178772636-1");
     </script>
 
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="favicon.ico" />
 
-    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700' rel='stylesheet'
-        type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:400,300,600,400italic,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
 
     <!-- index.css -->
-    <link rel="stylesheet" href="css/index.css">
-</head>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
 
-<body onload="myFunction()">
+  <body onload="myFunction()">
     <div class="container">
-        <div class="scroller">
-            <div class="inner">
-                <span>Welcome to</span>
-                <span>
-                    <p>Chanya Kukulprasong</p>'s site
-                </span>
-                <span>I love Coding,</span>
+      <div class="scroller">
+        <div class="inner">
+          <span>Welcome to</span>
+          <span>
+            <p>Chanya Kukulprasong</p>
+            's site
+          </span>
+          <!-- <span>I love Coding,</span>
                 <span>Music and Photos.</span>
-                <span>I want to be a <a class="blue">Software</a> <a class="blueb">Engineer</a>.</span>
-            </div>
+                <span>I want to be a <a class="blue">Software</a> <a class="blueb">Engineer</a>.</span> -->
         </div>
+      </div>
     </div>
 
     <script type="text/javascript">
-        function goToHome() {
-            window.location.href = 'home.html';
-        }
-        function clickBody() {
-            window.location.href = 'home.html'
-        }
-        document.body.addEventListener("click", clickBody)
-        window.onload = setTimeout(goToHome, 10000);;
+      function goToHome() {
+        window.location.href = "home.html";
+      }
+      function clickBody() {
+        window.location.href = "home.html";
+      }
+      document.body.addEventListener("click", clickBody);
+      window.onload = setTimeout(goToHome, 3000);
     </script>
-</body>
+  </body>
+</html>
